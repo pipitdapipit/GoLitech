@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoLitech</title>
+    <link rel="stylesheet" href="Homepage.css">
+</head>
+<body>
+
+    <!-- Header =============================================================== -->
+
+    <header>
+        <div class="logos">
+            <img class="logo-header" src="Gambar/controller-removebg-preview.png">
+            <div class="text-header">GoLitech</div>
+        </div>
+
+        <div class="navigation-header"class="slider">
+            <button class="navbar">
+                <a class="navbar-header" href="Homepage.html">Home</a>
+            </button>
+            <button class="navbar">
+                <a class="navbar-header" href="Our Product.html">Our Product</a>
+            </button>
+            <button class="navbar">
+                <a class="navbar-header" href="Membership.html">Membership</a>
+            </button>
+            <button class="navbar">
+                <a class="navbar-header" href="Our Store.html">Our Store</a>
+            </button>
+            <button class="navbar">
+                <a class="navbar-header" href="About Us.html">About Us</a>
+            </button>
+        </div>
+
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input')
+        const nav = document.querySelector('.navigation-header')
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slider')
+        });
+    </script>
+
+    <!-- ====================================================================== -->
+
+
+
+
+    <!-- Banner Looping =============================================================== -->
+
+    <div class="banner-container">
+        <div class="banner">
+            <div class="banner-loop">
+                    <img src="Gambar/Slogan.png">
+                    <img src="Gambar/Slogan2.png">
+                    <img src="Gambar/Slogan3.png">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var copy = document.querySelector(".banner-loop").cloneNode(true)
+        document.querySelector('.banner').appendChild(copy)
+    </script>
+
+    <!-- ============================================================================== -->
+
+    
+
+
+
+    <!-- Text Tengah =============================================================== -->
+
+    <div class="text-tengah">
+        <div class="text-tengah1">
+            <div class="text-menu">Welcome Gamer!</div>
+            <div class="text-menu">
+                Do you want to be a gamer who has the stuff of a pro gamer?
+            </div>
+        </div>
+        <div class="text-tengah2">
+            <div class="text-menu">
+                We sell a lot things for gamer to become a pro gamer! 
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================================== -->
+
+
+
+    
+
+    <!-- Banner Navigation =============================================================== -->
+
+    <div class="banner-navigation">
+        <div class="banner-menu">
+            <a class="banner-navi" href="Our Product.html">
+                <img class="banner-image" src="Gambar/our product.jpg">
+            </a>
+            <div class="banner-text">Our Product</div>
+        </div>
+        <div class="banner-menu">
+            <a class="banner-navi" href="Membership.html">
+                <img class="banner-image" src="Gambar/membership.jpg">
+            </a>
+            <div class="banner-text">Membership</div>
+        </div>
+        <div class="banner-menu">
+            <a class="banner-navi" href="Our Store.html">
+                <img class="banner-image" src="Gambar/gamers(3).jpeg">
+            </a>
+            <div class="banner-text">Our Store</div>
+        </div>
+        <div class="banner-menu">
+            <a class="banner-navi" href="About Us.html">
+                <img class="banner-image" src="Gambar/about us.jpg">
+            </a>
+            <div class="banner-text">About Us</div>
+        </div>
+    </div>
+
+    <!-- ================================================================================= -->
+
+
+
+    <!-- Footer =============================================================== -->
+
+    <footer class="footer">
+        <div class="logo-sosmed">
+            <div class="logo-dan-navbar">
+                <div class="logo-footer-1">
+                    <div class="logo-footer">
+                        <img class="logo-footer-image" src="Gambar/controller-removebg-preview.png">
+                        <div class="logo-footer-text">GoLitech</div>
+                    </div>
+                    <div class="text-bawah-logo">
+                        Gear Up for Epic Gaming Adventures!
+                    </div>
+                </div>
+                
+                <!-- <div class="navigation-footer">
+                    <button class="navbar">
+                        <a class="navbar-footer" href="Homepage.html">Home</a>
+                    </button>
+                    <button class="navbar">
+                        <a class="navbar-footer" href="Our Product.html">Our Product</a>
+                    </button>
+                    <button class="navbar">
+                        <a class="navbar-footer" href="Membership.html">Membership</a>
+                    </button>
+                    <button class="navbar">
+                        <a class="navbar-footer" href="Our Store.html">Our Store</a>
+                    </button>
+                    <button class="navbar">
+                        <a class="navbar-footer" href="About Us.html">About Us</a>
+                    </button>
+                </div> -->
+            </div>
+    
+            <div class="sosmed-footer">
+                <div class="sosmed">
+                    <img class="sosmed-image1" src="Gambar/facebook-removebg-preview (1).png">
+                    <div class="sosmed-facebook">GoLitech.Stores</div>
+                </div>
+    
+                <div class="sosmed">
+                    <img class="sosmed-image2" src="Gambar/Whatsapp_logo-removebg-preview.png">
+                    <div class="sosmed-whatsapp">+62 811-2834-3824</div>
+                </div>
+    
+                <div class="sosmed">
+                    <img class="sosmed-image3" src="Gambar/Instagram-Logo.wine-removebg-preview.png">
+                    <div class="sosmed-instagram">@GoLitech.Stores</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================================================================== -->
+
+
+</body>
+</html>

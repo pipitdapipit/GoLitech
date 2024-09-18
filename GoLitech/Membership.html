@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoLitech</title>
+    <link rel="stylesheet" href="Membership.css">
+</head>
+<body>
+
+    <!-- Header =============================================================== -->
+
+    <header>
+        <div class="logos">
+            <img class="logo-header" src="Gambar/controller-removebg-preview.png">
+            <div class="text-header">GoLitech</div>
+        </div>
+
+        <div class="navigation-header"class="slider">
+            <button class="navbar">
+                <a class="navbar-header" href="Homepage.html">Home</a>
+            </button>
+            <button class="navbar">
+                <a class="navbar-header" href="Our Product.html">Our Product</a>
+            </button>
+            <button class="navbar">
+                <a class="navbar-header" href="Membership.html">Membership</a>
+            </button>
+            <button class="navbar">
+                <a class="navbar-header" href="Our Store.html">Our Store</a>
+            </button>
+            <button class="navbar">
+                <a class="navbar-header" href="About Us.html">About Us</a>
+            </button>
+        </div>
+
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input')
+        const nav = document.querySelector('.navigation-header')
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slider')
+        });
+    </script>
+
+    <!-- ====================================================================== -->
+
+    
+
+    <!-- Logo Tengah =============================================================== -->
+
+    <div class="logo-bagian-tengah">
+        <div class="logo-tengah">
+            <img class="gambar-tengah" src="Gambar/controller-removebg-preview.png">
+            <div class="nama-tengah">GoLitech</div>
+        </div>
+        <div class="text-tengah">
+            Please fill in the box if you want to become our membership!
+        </div>
+    </div>
+
+    <!-- =========================================================================== -->
+
+
+        
+
+    <!-- Isi Form ================================================================== -->
+
+        <div class="form-tengah">
+            <div class="isi-form">
+                <div class="text-nama">Full Name:</div>
+                <div class="inputbox">
+                    <input type="text" class="input-field" placeholder="At least 5 characters" id="full-name">
+                </div>
+            </div>
+    
+            <div class="gender">
+                <div class="text-nama">Gender:</div>
+                    <div class="radio">
+                        <div class="isi-radio">
+                            <input type="radio" class="radio-field" name="gender" id="gender">
+                            <div class="jenis-kelamin">Male</div>
+                        </div>
+        
+                        <div class="isi-radio">
+                            <input type="radio" class="radio-field" name="gender" id="gender">
+                            <div class="jenis-kelamin">Female</div> 
+                        </div>
+                    </div>
+            </div>
+    
+            <div class="isi-form">
+                <div class="text-nama">Email: </div>
+                <div class="inputbox">
+                    <input type="text" class="input-field" placeholder="....@gmail.com" id="email">
+                </div>
+            </div>
+    
+            <div class="isi-form">
+                <div class="text-nama">Address: </div>
+                <div class="inputbox">
+                    <input type="text" class="input-field" placeholder="Input your Address!" id="address">
+                </div>
+            </div>
+    
+            <div class="isi-form">
+                <div class="text-nama">Phone number: </div>
+                <div class="inputbox">
+                    <input type="text" class="input-field" placeholder="At least 12 characters!" id="phone-num">
+                </div>
+            </div>
+    
+            <div class="button-submit">
+                <button class="button-field" id="login-button">Submit</button>
+            </div>
+        </div>
+
+    <!-- ========================================================================= -->
+
+
+    <!-- Footer ================================================================== -->
+
+    <footer class="footer">
+        <div class="logo-sosmed">
+                <div class="logo-footer-1">
+                    <div class="logo-footer">
+                        <img class="logo-footer-image" src="Gambar/controller-removebg-preview.png">
+                        <div class="logo-footer-text">GoLitech</div>
+                    </div>
+                    <div class="text-bawah-logo">
+                        Gear Up for Epic Gaming Adventures!
+                    </div>
+                </div>
+    
+            <div class="sosmed-footer">
+                <div class="sosmed">
+                    <img class="sosmed-image1" src="Gambar/facebook-removebg-preview (1).png">
+                    <div class="sosmed-facebook">GoLitech.Stores</div>
+                </div>
+    
+                <div class="sosmed">
+                    <img class="sosmed-image2" src="Gambar/Whatsapp_logo-removebg-preview.png">
+                    <div class="sosmed-whatsapp">+62 811-2834-3824</div>
+                </div>
+    
+                <div class="sosmed">
+                    <img class="sosmed-image3" src="Gambar/Instagram-Logo.wine-removebg-preview.png">
+                    <div class="sosmed-instagram">@GoLitech.Stores</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ======================================================================== -->
+
+<script src="Membership.js"></script>
+</body>
+</html>
